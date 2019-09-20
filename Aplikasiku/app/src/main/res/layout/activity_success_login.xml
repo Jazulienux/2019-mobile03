@@ -8,13 +8,12 @@
 	android:background="#FFFFFF"
 	tools:context=".SuccessLoginActivity">
 
-	<androidx.constraintlayout.Guideline
+	<androidx.constraintlayout.widget.Guideline
 		android:id="@+id/guideline"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
-		app:layout_constraintGuide_percent="0.5"
-		tools:ignore="MissingConstraints" />
+		app:layout_constraintGuide_percent="0.5"/>
 
 	<ImageView
 		android:id="@+id/success_image"
@@ -44,7 +43,7 @@
 		android:layout_marginLeft="24dp"
 		android:layout_marginTop="16dp"
 		android:layout_marginRight="24dp"
-		android:text="You have successfully logging in, Enjoy and relax on using our system "
+		android:text="You have successfully Login. Enjoy and Relax in our system"
 		android:textAlignment="center"
 		android:textSize="16sp"
 		app:layout_constraintLeft_toLeftOf="parent"
